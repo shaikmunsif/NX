@@ -1,0 +1,9 @@
+{
+  "name": "NGRxPractice-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/NGRxPractice-e2e/src",
+  "implicitDependencies": ["NGRxPractice"],
+  "// targets": "to see all targets run: nx show project NGRxPractice-e2e --web",
+  "targets": {}
+}
