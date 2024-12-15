@@ -1,0 +1,22 @@
+<app-header></app-header>
+
+<div class="text-center">
+    <div>
+        <h1 class="text-2xl">
+            Counter Value {{ count$ | async}}
+        </h1>
+    </div>
+    <div class="m-5">
+        <button (click)="increment()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2">
+           Increment
+        </button>
+        <button (click)="decrement()" class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded m-2">
+            Decrement
+        </button>
+        <button (click)="reset()" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded m-2">
+            Reset
+        </button>
+    </div>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,22 @@
+<nav class="bg-gray-800">
+    <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+      <div class="flex items-center">
+        <a href="#" class="text-white font-bold">NGRX Practice</a>
+      </div>
+      <div class="flex items-center">
+        <!-- <a href="#" class="text-white mr-4">Home</a>
+        <a href="#" class="text-white mr-4">Products</a>
+        <a href="#" class="text-white mr-4">About</a> -->
+  
+        @if(numberOfItems){
+          <button class="relative" (click)="routeToCart()">
+            <span class="absolute top-0 right-0 bg-red-500 text-white font-bold rounded-full px-2 py-1">
+              <!-- {{ count$ | async }} -->
+              {{numberOfItems}}
+            </span>
+          </button>
+        }
+
+      </div>
+    </div>
+  </nav>

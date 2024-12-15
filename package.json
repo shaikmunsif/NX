@@ -2,7 +2,10 @@
   "name": "@munsif-workspace/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "nx": "nx",
+    "start:ngrxApp": "nx run NGRxPractice:serve --verbose"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.2.0",

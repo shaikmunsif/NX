@@ -99,3 +99,9 @@ And join the Nx community:
 - [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
 - [Our Youtube channel](https://www.youtube.com/@nxdevtools)
 - [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+
+
+creating New Component
+npx nx generate @nx/angular:component --path=apps\NGRxPractice\src\app\shared\product-card\product-card --standalone=false --no-interactive --dry-run(to see what cmd does with chages to code base)
+
+npx nx generate @schematics/angular:service --name=ProductsApi --project=NGRxPractice --path=apps\NGRxPractice\src\app\shared\services --no-interactive --dry-run(to see what cmd does with chages to code base)
